@@ -163,6 +163,37 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\AdventureWorksContext.cs" />
+    <Compile Include="Models\BuildVersion.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\CustomerAddress.cs" />
+    <Compile Include="Models\ErrorLog.cs" />
+    <Compile Include="Models\Mapping\AddressMap.cs" />
+    <Compile Include="Models\Mapping\BuildVersionMap.cs" />
+    <Compile Include="Models\Mapping\CustomerAddressMap.cs" />
+    <Compile Include="Models\Mapping\CustomerMap.cs" />
+    <Compile Include="Models\Mapping\ErrorLogMap.cs" />
+    <Compile Include="Models\Mapping\ProductCategoryMap.cs" />
+    <Compile Include="Models\Mapping\ProductDescriptionMap.cs" />
+    <Compile Include="Models\Mapping\ProductMap.cs" />
+    <Compile Include="Models\Mapping\ProductModelMap.cs" />
+    <Compile Include="Models\Mapping\ProductModelProductDescriptionMap.cs" />
+    <Compile Include="Models\Mapping\SalesOrderDetailMap.cs" />
+    <Compile Include="Models\Mapping\SalesOrderHeaderMap.cs" />
+    <Compile Include="Models\Mapping\vGetAllCategoryMap.cs" />
+    <Compile Include="Models\Mapping\vProductAndDescriptionMap.cs" />
+    <Compile Include="Models\Mapping\vProductModelCatalogDescriptionMap.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductCategory.cs" />
+    <Compile Include="Models\ProductDescription.cs" />
+    <Compile Include="Models\ProductModel.cs" />
+    <Compile Include="Models\ProductModelProductDescription.cs" />
+    <Compile Include="Models\SalesOrderDetail.cs" />
+    <Compile Include="Models\SalesOrderHeader.cs" />
+    <Compile Include="Models\vGetAllCategory.cs" />
+    <Compile Include="Models\vProductAndDescription.cs" />
+    <Compile Include="Models\vProductModelCatalogDescription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -244,7 +275,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
