@@ -159,21 +159,18 @@
     <Compile Include="App_Start\HotTowelConfig.cs" />
     <Compile Include="App_Start\HotTowelRouteConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\api\AdventureWorksController.cs" />
     <Compile Include="Controllers\HotTowelController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\AdventureWorksContext.cs" />
-    <Compile Include="Models\BuildVersion.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\CustomerAddress.cs" />
-    <Compile Include="Models\ErrorLog.cs" />
     <Compile Include="Models\Mapping\AddressMap.cs" />
-    <Compile Include="Models\Mapping\BuildVersionMap.cs" />
     <Compile Include="Models\Mapping\CustomerAddressMap.cs" />
     <Compile Include="Models\Mapping\CustomerMap.cs" />
-    <Compile Include="Models\Mapping\ErrorLogMap.cs" />
     <Compile Include="Models\Mapping\ProductCategoryMap.cs" />
     <Compile Include="Models\Mapping\ProductDescriptionMap.cs" />
     <Compile Include="Models\Mapping\ProductMap.cs" />
