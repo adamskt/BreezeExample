@@ -49,6 +49,7 @@ namespace BreezeExample.Controllers.api
 
 
         // ~/api/AdventureWorks/SaveChanges
+        // ALARM: We probably shouldn't just automatically save whatever a client POSTs to us...
         [HttpPost]
         public SaveResult SaveChanges( JObject saveBundle )
         {
